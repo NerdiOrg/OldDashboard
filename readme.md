@@ -9,4 +9,15 @@ A PHP / MySQL dashboard created a long time ago. I have decided to put this on G
 * User Dashboard:
   * Blank page
   * No edit/delete account features
+  
+* Sign Up:
+  * Allows anyone to register a Regular User account
+  * Email, username, password
+  * No email verification / mailing supported at this time
+  
+* Database.sql:
+  * Basic 'users' table stores ID, username, email, password, role
+  * Default credentials: "Admin" username, with password "password"
+  
+
 
