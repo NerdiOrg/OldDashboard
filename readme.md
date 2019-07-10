@@ -15,9 +15,16 @@ A PHP / MySQL dashboard created a long time ago. I have decided to put this on G
   * Email, username, password
   * No email verification / mailing supported at this time
   
+## Instructions
+1. Upload all files to your server
+1. Import database.sql 
+1. Modify the inc/connection.php file 
+  * Change USERNAME, PASSWORD, DATABASE values for connection function
+  
 * Database.sql:
   * Basic 'users' table stores ID, username, email, password, role
   * Default credentials: "Admin" username, with password "password"
+ 
   
 
 
